@@ -1,6 +1,6 @@
 body {
     color: #E5E7EB;
-    background-color: #1F2937;
+    background-color: white;
     margin: 0;
    
 }
@@ -90,7 +90,7 @@ button {
 .imageplaceholder {
     flex: 1;
     background-color: gray;
-    justify-content: center;
+    
     align-content: center;
     text-align: center;
     height: 150px;
@@ -200,6 +200,13 @@ button {
 #button2 {
     border: white 1px solid;
     
-
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

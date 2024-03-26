@@ -75,7 +75,7 @@ li {
 }
 
 button {
-    flex: 1;
+    
     display: block;
     color: white;
     background-color: #3882F6;;
@@ -174,5 +174,32 @@ button {
     font-size: 18px;
     font-weight: 800;
     
+}
+
+
+.actionContainer {
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#callToAction {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.actionBlue {
+    flex: 1;
+}
+
+#button2 {
+    border: white 1px solid;
+    
+
 }
 

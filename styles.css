@@ -1,0 +1,147 @@
+body {
+    color: #E5E7EB;
+    background-color: #1F2937;
+   
+}
+
+.navbar {
+    display: flex;
+    background-color: #1F2937;
+    
+   
+}
+
+.headerLogo {
+    flex: 1;
+    padding-left: 10%;
+    align-self: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8
+    
+}
+
+.links {
+    display: block;
+    padding-right: 10%;
+    font-size: 18px;
+
+    
+
+}
+
+ul {
+   list-style: none; 
+}
+
+li {
+    float: left;
+    padding: 8px;
+    list-style: none; 
+}
+
+.headerBar {
+    display: flex;
+    background-color: #1F2937;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+}
+
+#heroTitle {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    
+
+}
+
+.heroChild {
+   
+    flex-direction: column;
+    font-size: 18px;
+    width: 50%;
+    padding-right: 40px;
+
+    
+}
+
+.heroText {
+   flex: 1;
+   
+}
+
+button {
+    flex: 1;
+    display: block;
+    color: white;
+    background-color: #3882F6;;
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10%;
+    border: 0;
+    
+}
+
+.imageplaceholder {
+    flex: 1;
+    background-color: gray;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 150px;
+    
+
+}
+
+
+#someRandomInformation {
+    background-color: white;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-weight: 800;
+}
+.randomInfo {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    gap: 70px;
+    background-color: white;
+    color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.infoSquares {
+    border: #3882F6 2px solid;
+    border-radius: 10%;
+    width: 100px;   
+    height: 100px;
+}
+
+.randomInfoText {
+    display: flex;
+    background-color: white;
+    color: black;
+    flex-direction: row;
+    align-content: center;
+    justify-content:center;
+    text-align: center;
+    gap: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+   
+    padding-bottom: 70px;
+    
+}
+
